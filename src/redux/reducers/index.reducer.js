@@ -18,8 +18,8 @@ import visibilityFilterReducer from './visibilityFilter.reducer';
 // };
 
 const mainReducer = combineReducers({
-    todosReducer,
-    visibilityFilterReducer
+    todos: todosReducer,
+    filter: visibilityFilterReducer
 })
 
 // const todoAppReducer = (state = {}, action) => {

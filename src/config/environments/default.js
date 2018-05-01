@@ -3,6 +3,5 @@ export default {
     ENV: process.env.NODE_ENV,
     APP_ID: 'pxf',
     MAIN_APP_AUTHORITY: 'https://heroku-app/',
-    SHOW_REDUX_DEV_TOOLS: false,
-
-  };
+    SHOW_REDUX_DEV_TOOLS: false
+};

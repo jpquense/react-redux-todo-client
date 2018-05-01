@@ -2,7 +2,7 @@ import { createStore, compose } from 'redux';
 import appConfig from '../../config/appConfig';
 import todoAppReducer from '../reducers/index.reducer';
 
-const initialState = [];
+const initialState = {};
 const enhancers = [];
 
 
